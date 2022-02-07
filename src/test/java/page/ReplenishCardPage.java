@@ -18,6 +18,7 @@ public class ReplenishCardPage {
     }
 
     public static DashboardPage transferMoney(int amount, String cardNumber){
+
         amountField.setValue(String.valueOf(amount));
         fromField.setValue(cardNumber);
         transferButton.click();
